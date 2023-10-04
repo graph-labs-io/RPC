@@ -32,9 +32,6 @@
     "node-fetch": "^2.6.1",
     "ws": "^7.3.1"
   },
-  "optionalDependencies": {
-    "register-scheme": "github:devsnek/node-register-scheme"
-  },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "discord.js-docgen": "github:discordjs/docgen",
@@ -52,7 +49,6 @@
     "uws": false,
     "erlpack": false,
     "electron": false,
-    "register-scheme": false,
     "./src/transports/IPC.js": false
   }
 }
